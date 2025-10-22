@@ -6,6 +6,25 @@ const eleventyNavigation = {
 
 const numberOfLatestPostsToShow = 3;
 ---
+<section class="hero">
+  <div>
+    <h1>Welcome to My Space ☕</h1>
+    <p>A corner for code, climbs, coffee, and quiet reflections along the way.</p>
+    <img src="/img/coffee.jpg" alt="Stick figure drinking coffee">
+    <a href="https://www.youtube.com/watch?v=drIgY3lKYdg">
+    Jam of the Week
+	<i class="fa fa-music" aria-hidden="true"></i>
+    <i class="fa fa-music" aria-hidden="true"></i>
+    </a>
+	<p>Can also find me on: </p>
+	<a href="https://www.linkedin.com/in/amber-nguyen-231936176/" target="_blank" aria-label="LinkedIn">
+    <i class="fab fa-linkedin fa-2x"></i>
+    </a>
+    <a href="https://github.com/ambo-n" target="_blank" aria-label="GitHub">
+      <i class="fab fa-github fa-2x"></i>
+    </a>
+  </div>
+</section>
 {% set postsCount = collections.posts | length %}
 {% set latestPostsCount = postsCount | min(numberOfLatestPostsToShow) %}
 <h1>Latest {{ latestPostsCount }} Post{% if latestPostsCount != 1 %}s{% endif %}</h1>
@@ -16,7 +35,7 @@ const numberOfLatestPostsToShow = 3;
 
 {% set morePosts = postsCount - numberOfLatestPostsToShow %}
 {% if morePosts > 0 %}
-<p>{{ morePosts }} more post{% if morePosts != 1 %}s{% endif %} can be found in <a href="blog.njk">the archive</a>.</p>
+<p>{{ morePosts }} more post{% if morePosts != 1 %}s{% endif %} can be found <a href="blog.njk">here</a>.</p>
 {% endif %}
 
 {# List every content page in the project #}
