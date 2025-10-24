@@ -1,6 +1,6 @@
 ---js
 const title = "This is a third post";
-const date = "2023-01-23";
+const date = "2025-11-01";
 const draft = true;
 ---
 
