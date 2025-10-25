@@ -5,7 +5,7 @@ date: 2025-10-25
 tags: bouldering
 ---
 
-# Bouldering
+# Introduction to bouldering
 
 ## What is Bouldering:
 
