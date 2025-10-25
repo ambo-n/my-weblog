@@ -7,7 +7,7 @@ tags: bouldering
 
 # Introduction to bouldering
 
-## What is Bouldering:
+## What is Bouldering?
 
 Bouldering is a form of rock climbing that focuses on shorter climbing routes close to the ground. The finish hold is usually between four to five metres off the ground
 
@@ -17,7 +17,7 @@ But the mats are pretty good at catching you (_if you fall correctly_).
 
 ![Nervous thumbs up](https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExYndkZXdoajhmdzkyNDFubDV3a3NydGQzNXV0aGRzYzg5c3lxeXlmNiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/cXblnKXr2BQOaYnTni/200.webp)
 
-## Falling
+## Falling.
 
 That brings me to my next point: falling is a part of it.
 
@@ -40,7 +40,7 @@ However, if you watch people who climb really hard problems, they rarely fall li
 
 A bonus: my favourite fall from the GOAT Janja Ganbret this climbing season: <a href="https://www.youtube.com/shorts/Et4LjH6j7t8">Youtube Link</a>. I wish I was the brusher..
 
-## Some climbing Lingo
+## Some climbing lingo.
 
 - **Beta**: Information or sequence on how to complete a climb
 
@@ -54,7 +54,7 @@ A bonus: my favourite fall from the GOAT Janja Ganbret this climbing season: <a 
 
 - **Pump**: The burning fatigue in your forearms after climbing for a while
 
-## Grading
+## Grading.
 
 There isn't a standard grading method between gyms and it is often location-dependent (_a tad annoying_). Just ask a friendly local climber - they are happy to help.
 
@@ -72,7 +72,7 @@ For indoor bouldering, it is quite safe as long as you follow the rules (e.g. fa
 
 It can be dangerous if you choose to put yourself in riskier positions.
 
-## What not to do in your first session
+## What not to do in your first session.
 
 There’s hardly anything you can do “wrong” in this sport — everyone’s usually pretty nice and understanding.
 
@@ -82,7 +82,7 @@ If you’re not climbing, try to stay out of the falling zone.
 
 Before starting a climb, make sure no one else is going to cross paths with you on the wall. Usually, an arm-span distance is a good estimate. This is mainly because if you both fall at the same time, it’s much harder to land safely.
 
-## Conclusion
+## Conclusion.
 
 That's it for a quick introduction to Bouldering.
 
