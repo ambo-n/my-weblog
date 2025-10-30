@@ -1,0 +1,2 @@
+- Where and how does k8s get deployed
+-

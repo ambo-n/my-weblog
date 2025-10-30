@@ -24,17 +24,16 @@ Let's give some examples.
 
 ```python
 # normal class
-# Side note: I learnt that while a class definition
-# can start with or without () at the end,
-# it would make more sense to only use () if the class you
-# are defining is inheriting from another class,
-# e.g. class BoulderingGym(Gym)
 
 class BoulderingGym:
     def __init__(self, place, capacity):
         self.place = place
         self.capacity  = capacity
 ```
+
+::: tip
+I learnt that while a class definition can start with or without () at the end, it would make more sense to only use () if the class you are defining is inheriting from another class, e.g. class BoulderingGym(Gym).
+:::
 
 With a dataclass
 
