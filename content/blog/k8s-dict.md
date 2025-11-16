@@ -8,7 +8,7 @@ tags: kubernetes, programming
 ## My K8s Dictionary
 
 - **Cluster**: A group of computers (nodes) that work together to run the containerised applications
-- **Nodes**: A machine that runs the workload. There are **master nodes** (control plane) and **worker nodes** (run containers)
+- **Nodes**: Nodes are Linux hosts, either VM or physical servers that run various K8s components
 - **Pod**:
 - **Namespace**
 - **Workloads**

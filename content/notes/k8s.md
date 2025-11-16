@@ -1,2 +1,5 @@
 - Where and how does k8s get deployed
--
+- Different storage
+- Do deep dive on each k8s components
+- k8s, k9s and k3s
+- CRI

@@ -35,6 +35,14 @@ export default async function (eleventyConfig) {
 					? '<div class="callout warning"><strong>⚠️ Warning</strong><br>'
 					: "</div>\n";
 			},
+		})
+		.use(container, "info", {
+			render(tokens, idx) {
+				const token = tokens[idx];
+				return token.nesting === 1
+					? '<div class="callout info"><strong>📝 Info</strong><br>'
+					: "</div>\n";
+			},
 		});
 
 	eleventyConfig.setLibrary("md", markdownLib);
