@@ -63,7 +63,7 @@ Image taken from the <a href="https://kubernetes.io/docs/concepts/architecture/"
 
 ### Control Plane Node
 
-Control Plane (Master) Node is the brain of the cluster, responsible for desision-making tasks.
+Control Plane (Master) Node is the brain of the cluster, responsible for decision-making tasks.
 
 Control plane components can be set up across multiple computers, but it is more common to configure all the components on the same machine, isolated from the Worker Nodes
 
@@ -232,8 +232,8 @@ Kubelet decides what needs to be run and the runtime handles how it actually run
 Scenario: A user has a multi-container application they want to run in a Kubernetes cluster. The workflow would look something like this:
 
 1. The user submits a request to the <code>kube-apiserver</code> via a UI or command line tool such as <code>kubectl</code> (which is installed separately)
-2. The <code>kube-apiserver</code> validates the PodSpec and stores it in <code>etcd</code>. After the PodSpec is stored, the <code>kube-scheduler</code> detects an unscheduled Pod and determines which node it should run on, then writes that decision back to the API server. The scheduler watches the API server for unscheduled Pods.
-3. The <code>kubelet</code> on the chosen node creates the Pod and its containers. It retrieves the assigned PodSpec from the API server, pulls container images via the configured container runtime, and starts the containers. <code>kubelet</code> watches the API server for Pods assigned to its node.
+2. The <code>kube-apiserver</code> validates the PodSpec and saves it in <code>etcd</code>. Once the Pod object exists, the <code>kube-scheduler</code>, which continuously watches the API server, identifies that the Pod has no <code>nodeName</code> assigned. It selects a suitable node and writes a Binding back to the API server. Controllers such as the DeploymentController create ReplicaSets, and the ReplicaSetController creates the Pods that the scheduler selects.
+3. The <code>kubelet</code> on the selected node notices the Pod assigned to it by watching the API server. It retrieves the PodSpec and, through the Container Runtime Interface (CRI), instructs the container runtime (e.g., containerd or CRI-O) to pull the required images and start the containers.
 4. Controller components continuously monitor the cluster's state. They read the actual state from the API server (which itself reads from <code>etcd</code>). If a node fails, controllers initiate actions such as recreating Pods on a healthy node to maintain the desired state.
 
 ![Kubernetes-workflow](/blog/kubernetes-part1/workflow.png)
