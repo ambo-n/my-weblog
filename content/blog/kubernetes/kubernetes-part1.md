@@ -236,4 +236,4 @@ Scenario: A user has a multi-container application they want to run in a Kuberne
 3. The <code>kubelet</code> on the selected node notices the Pod assigned to it by watching the API server. It retrieves the PodSpec and, through the Container Runtime Interface (CRI), instructs the container runtime (e.g., containerd or CRI-O) to pull the required images and start the containers.
 4. Controller components continuously monitor the cluster's state. They read the actual state from the API server (which itself reads from <code>etcd</code>). If a node fails, controllers initiate actions such as recreating Pods on a healthy node to maintain the desired state.
 
-![Kubernetes-workflow](/blog/kubernetes-part1/workflow.png)
+![Kubernetes-workflow](/blog/kubernetes/workflow.png)
